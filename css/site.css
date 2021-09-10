@@ -4,15 +4,24 @@ main>.container {
 
 main>.container-fluid{
     background-image: linear-gradient(grey, white);
-    width: 80%;
+    width: 90%;
     height: 100%;
-    margin-top: 100px;
+    margin: top 5%;
+    border-color:rgb(64, 68, 68);
+    border: solid 0.1em;
 }
 
 
 body> main{
     margin-top: 20px;
     margin-bottom: 60px;
+    }
+
+body>h1{
+    margin-top: 100px;
+    color:white;
+    text-align-last: center;
+
 }
 .homebg {
     width:100%;
@@ -40,3 +49,8 @@ body> main{
     min-height: 50vh;
 }
 
+button{
+
+    margin-top:10px;
+
+}
