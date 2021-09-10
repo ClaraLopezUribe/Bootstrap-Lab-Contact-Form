@@ -1,0 +1,42 @@
+main>.container {
+    padding: 60px 15px 0;
+}
+
+main>.container-fluid{
+    background-image: linear-gradient(grey, white);
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+
+body> main{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.homebg {
+    width:100%;
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.homeText {
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0);
+}
+
+.box {
+    width: 50vw;
+    height: 50vh;
+    background-image: linear-gradient(black 10%, grey, white);
+    padding-left: 100%;   
+}
+
+
+.minHeight{
+    min-height: 50vh;
+}
+
